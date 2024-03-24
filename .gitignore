@@ -1,34 +1,24 @@
 
 
 #bai 1
-u = 0
+sum = 0
 for i in range(100+1):
   if i%3==0:
-    u=u+i
-print(u)
+    sum=sum+i
+print(sum)
 #bai 2
-m = 0
+sum1 = 0
 for i in range(50+1):
   if i%2 == 0:
-    m=m+1
-print(m)
+    sum1=sum1+1
+print(sum1)
 #bai 3
 n = int(input("nhap 1 so: "))
-if n%2==0:
-  print("day ko phai la so nguyen to")
-elif n%3==0:
-  print("day ko phai la so nguyen to")
-elif n%4==0:
-  print("day ko phai la so nguyen to")
-elif n%5==0:
-  print("day ko phai la so nguyen to")
-elif n%6==0:
-  print("day ko phai la so nguyen to")
-elif n%7==0:
-  print("day ko phai la so nguyen to")
-elif n%8==0:
-  print("day ko phai la so nguyen to")
-elif n%9==0:
-  print("day ko phai la so nguyen to")
-else: 
-  print("n la mot so nguyen to")
+x = 0
+for i in range(1,n+1):
+  if n%i==0:
+    x +=1
+if x == 2:
+  print("so nguyen to")
+else:
+  print("khong phai so nguyen to")
