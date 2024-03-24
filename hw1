@@ -1,1 +1,14 @@
+#bai 1
+a = int(input("a = "))
+b = int(input("b = "))
+c = int(input("c = "))
 
+if a + b > c and a + c > b and b + c > a :
+  print("a,b,c la 3 canh cua tam giac")
+  if a*a + b*b = c*c or c*c + b*b = a*a or c*c + a*a = b*b:
+    print("a,b,c la 3 canh cua tam giac vuong")
+  elif a = b or b = c or a = c:
+    print("a,b,c la 3 canh cua tam giac deu")
+else : 
+  print("a,b,c khong phai la 3 canh cua tam giac")
+#bai 2
